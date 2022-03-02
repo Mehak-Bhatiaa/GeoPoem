@@ -1,0 +1,119 @@
+html,body {
+    min-height: 100vh;
+    background-image: url("home.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.container-fluid {
+    text-align:center;
+    width:100%;
+}
+
+#footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: auto;
+    /* box-sizing:inherit; */
+}
+#logo {
+    margin-top:7%;
+    width:40vw;
+    height:auto;
+    text-align:center;
+}
+
+.header {
+    text-align: center;
+    margin-top:12%;
+}
+#tagline {
+    color:linen;
+    font-family:'Roboto Mono', monospace;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+.signup {
+    margin-left: auto;
+    margin-right: auto;
+    height:140vh;
+    background-color: rgba(255, 160, 122, 0.678);
+    border: 2px solid green;
+    padding:0px;
+    font-family:'Roboto Mono', monospace;
+    font-size: 50px;
+    color:white;
+    width: 60%;
+    padding-top:0px;
+    margin-bottom:5%;
+}
+
+.breadcrumb {
+    text-align:center;
+    display:unset;
+}
+
+.form-row {
+    color:linen;
+    font-family:'Roboto Mono', monospace;
+    text-shadow: 2px 2px black;
+    font-size: 40%;
+    text-align: center;
+    margin: 10%;
+    padding:2px;
+    height: 100%;
+}
+
+.btn-warning {
+    font-family:'Roboto Mono', monospace;
+    margin-top: 3%;
+}
+.btn-warning:hover {
+    background-color:rgb(250, 97, 148);
+    color:white;
+}
+
+a, a:focus, a:active { 
+    color:white;
+    text-decoration:none;
+}
+
+a:hover { 
+    font-style: italic;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+    text-decoration:none;
+}
+.field {
+    text-align:left;
+}
+
+.thanks {
+    margin-top:3%;
+    text-align:center;
+}
+
+.nav-link {
+    font-family:'Roboto Mono', monospace;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+}
+
+navbar-brand {
+    font-family:'Roboto Mono', monospace;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+}
+.clearfloat {
+    clear:both;
+}

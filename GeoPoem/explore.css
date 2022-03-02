@@ -1,0 +1,134 @@
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(255, 160, 122, 0.7);
+    border: 2px solid green;
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1%;
+    margin-bottom:1%;
+    height: 3vh;
+}
+tr:nth-child(even) {background-color: #94cbffaf;}
+/*tr:nth-child(odd) {background-color: #94cbffaf;} */
+
+.table-striped tbody tr:nth-of-type(odd):hover { background-color:rgba(164, 255, 122, 1); }
+tr:nth-child(even):hover {background-color:rgba(235, 255, 122, 0.7);}
+/*tr:nth-child(odd):hover {background-color:rgba(164, 255, 122, 0.7);} */
+
+/* tr:nth-child:hover {background-color:#E4FDE1af;} */
+
+.table th {
+    background-color:#E4FDE1af;
+}
+.table th :hover {
+    background-color:#E4FDE1af;
+}
+th,td {
+    font-family:'Roboto Mono', monospace;
+}
+
+#thead {
+    border: 2px solid green;
+}
+#tagline {
+    color:linen;
+    font-family:'Roboto Mono', monospace;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+html,body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("home.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height:100 vh;
+
+}
+.title {
+    color:linen;
+    font-family:'Roboto Mono', monospace;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.field {
+    color:linen;
+    font-family:'Roboto Mono', monospace;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+.title:hover {
+    color:black;
+    color:black;
+    text-shadow: 0.5px 0.5px white;
+    font-style: italic;
+}
+#tbody {
+    color:linen;
+    font-family:'Roboto Mono', monospace;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+.table .row1 th {
+    background-color: #94cbffaf;
+}
+
+.garbage {
+    color:rgba(0, 0, 0, 0);
+}
+
+#logo {
+    margin-top:20%;
+    width:40vw;
+    height:auto;
+}
+
+#footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: auto;
+}
+.btn-warning {
+    font-family:'Roboto Mono', monospace;
+}
+.btn-warning:hover {
+    background-color:rgb(250, 97, 148);
+    color:white;
+    font-family:'Roboto Mono', monospace;
+}
+
+a, a:focus, a:active { 
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: none;
+}
+
+.nav-link {
+    font-family:'Roboto Mono', monospace;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+}
+
+navbar-brand {
+    font-family:'Roboto Mono', monospace;
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+}
+
+.header {
+    margin-top:15%;
+}
